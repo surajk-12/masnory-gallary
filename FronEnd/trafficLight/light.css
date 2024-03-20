@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.value{
+    border-radius: 50%;
+    border: 3px solid black;
+    /* size: 30px; */
+    width: 100px;
+    height: 100px;
+
+}
+
+.circle{
+    border-radius: 50%;
+    border: 3px solid black;
+    /* size: 30px; */
+    width: 100px;
+    height: 100px;
+}
+
+.conatiner{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    margin-top: 50px;
+
+}
+
+.light{
+    margin-top: 90px;
+    margin-right: 50%
+
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="logo" src="images/logo.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="contain-text">
+                <p>Mern Stack Developer</p>
+                <h1>Hi, I'm <span>Suraj</span><br> from Punjab</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------------About------------------------ -->
+    
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-1-data">
+                <img src="images/background.png.jpg" alt="my image">
+            </div>
+            <div class="col-2-data">
+                <h1 class="sub-tittle">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Natus placeat numquam quidem rerum possimus eaque facilis porro temporibus,
+                      amet tempora repellendus quibusdam at dolor voluptas fugit hic impedit corrupti.
+                       Quae?</p>
+                        <div class="tag">
+                            <p class="tag-tittle active" onclick="opentab(skills)">Skills</p>
+                            <p class="tag-tittle" onclick="opentab(experince)">Experince</p>
+                            <p class="tag-tittle" onclick="opentab(education)">Education</p>
+                        </div>
+                        <div class="tag-container active-tag" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Build Web sites</li>
+                            <li><span>Cpp</span><br>A good problem solver<li>
+                            <li><span>Developer</span><br>Build Mobile App.</li>
+                        </ul>
+                        </div>
+                        <div class="tag-container" id="experince">
+                        <ul>
+                            <li><span>Web Development</span><br>Have Experince of one year</li>
+                            <li><span>Cpp</span><br>Have Experince of one year</li>
+                            <li><span>Developer</span><br>Have experince of six months</li>
+                        </ul>
+                        </div>
+                        <div class="tag-container" id="education">
+                        <ul>
+                            <li><span>10th</span><br>Achieved 96.31%</li>
+                            <li><span>12th</span><br>Achieved 95.1%</li>
+                            <li><span>BTech</span><br>74.4% till 6th semester</li>
+                        </ul>
+                        </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
