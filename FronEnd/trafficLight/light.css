@@ -4,33 +4,128 @@
     box-sizing: border-box;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+.main{
+    position: relative;
+  text-align: center;
+  color: white;
+}
+
+.conatiner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 75%;
+    margin-bottom: 10px;
+    color: rgb(171, 111, 22);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-around;
+}
+
+.data{
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.light{
+  margin: 20px 5px 20px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 5px solid #13100d;
+  padding: 3px;
+}
+
 .value{
     border-radius: 50%;
-    border: 3px solid black;
-    /* size: 30px; */
+    border: 5px solid black;
     width: 100px;
     height: 100px;
+    background: white;
 
 }
 
 .circle{
     border-radius: 50%;
-    border: 3px solid black;
-    /* size: 30px; */
+    border: 5px solid black;
     width: 100px;
     height: 100px;
+    background: white;
 }
 
-.conatiner{
+.group{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    margin: 40px;
-    margin-top: 50px;
-
+    padding: 4px;
+    text-align: left;
 }
 
-.light{
-    margin-top: 90px;
-    margin-right: 50%
-
+.btn{
+    text-align: right;
+    right: 5px;
+    font-size: 30px;
+    float: right;
+    padding-left: 10px;
+    text-decoration: none;
+    background: transparent;
+    border: transparent;
 }
+
+.value1{
+    background: rgb(220, 138, 7);
+    /* display: none; */
+}
+
+.value2{
+    background: rgb(184, 16, 16);
+    /* display: none; */
+}
+
+.value3{
+    background: rgb(225, 232, 8);
+    /* display: none; */
+}
+
+.value4{
+    background: green;
+    /* display: none; */
+}
+
+.value5{
+    background: rgb(254, 188, 5);
+    /* display: none; */
+}
+
+.value6{
+    background: #0c034b;
+    /* display: none; */
+}
+
+.circle1{
+    background:  rgb(184, 16, 16);
+    /* display: none; */
+}
+
+.circle2{
+    background: rgb(225, 232, 8);
+    /* display: none; */
+}
+
+.circle3{
+    background: green;
+    /* display: none; */
+}
+
+/* .value1:hover , .circle1, .circle2, .circle3{
+    display: 100%;
+} */
+
